@@ -1,7 +1,61 @@
 <html>
 <head>
 <title>Guesthouse</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/site.css" />
 </head>
-Welcome to Guesthouse currently
 
+<body>
+<div style="height: 100%">
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="../" class="navbar-brand"><img src="images/Guesthouse-logo.png" /></a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+<form class="navbar-form navbar-right" role="search">
+      <button class="btn btn-default">List Your Space</button>
+</form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://expo.getbootstrap.com">LOGIN</a></li>
+        <li><a href="http://blog.getbootstrap.com">SIGNUP</a></li>
+      </ul>
+
+
+    </nav>
+  </div>
+</header>
+<div class="banner-image-container">
+	<img src="images/Background.png" class="banner-image" />
+	<p class="overlay-text">Login</p>
+</div>
+
+
+<div class="well text-center top-spacer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6">
+				<form role="form">
+  					<div class="form-group">
+					    <input type="email" class="form-control" id="emailAddress" placeholder="Your email address">
+					</div>
+					 <div class="form-group">
+					    <input type="password" class="form-control" id="password" placeholder="Your password">
+				         </div>
+					 <button type="submit" class="btn btn-primary">Login</button>								
+				</form>
+				<p class="gray">Don't have an account? <a href="signup">Sign up</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+
+			<p class="gray copyright-text" style="left: 47%;">&copy; Guesthouse, Inc.</p>
+</div>
+
+</div>
+<script type="text/javascript" src="https://rawgit.com/flatiron/director/master/build/director.min.js"></script>
+</body>
 </html>
