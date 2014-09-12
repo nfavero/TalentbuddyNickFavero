@@ -1,0 +1,65 @@
+li > a {
+   color:black;
+}
+
+.btn-default {
+   border-radius: 0px;
+   background-color: #ECD203;
+   color: white;
+   font-weight: bold;
+}
+
+.banner-image {
+   width: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+.overlay-text {
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:36px;
+    font-weight:bold;
+    left:47%;
+    top:50%;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.banner-image-container
+{
+    height: 350px;
+    position:relative;
+}
+
+.btn-primary {
+	border-radius: 0px;
+	background-color: #0383BD;
+	color:white;
+	font-weight:bold;
+}
+
+
+
+.form-control {
+	border-radius: 0px;
+}
+
+.top-spacer {
+	padding-top:60px;
+}
+
+p.gray {
+	color:#848E97;
+}
+
+
+.copyright-text {
+	position:absolute;
+	bottom: 0;
+}
